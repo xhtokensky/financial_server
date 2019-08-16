@@ -1,0 +1,11 @@
+//获取首页数据>> curl http:192.168.3.103:9000/financial/getHomeData -X POST -H "Content-Type:application/json,token:xxx"
+//理财资产数据>> curl http:192.168.3.103:9000/financial/getFinancialAssetsData -X POST -H "Content-Type:application/json,token:xxx"
+//获取购买详情数据>> curl http:192.168.3.103:9000/financial/getBuyDetails -X POST -H "Content-Type:application/json,token:xxx" -d '{"symbol":"xxx"}'
+//获取活期单币balance>> curl http:192.168.3.103:9000/financial/getSingleLiveBalance -X POST -H "Content-Type:application/json,token:xxx" -d '{"symbol":"xxx"}'
+//获取活期单币收益列表>> curl http:192.168.3.103:9000/financial/getSingleLiveProfitList -X POST -H "Content-Type:application/json,token:xxx" -d '{"symbol":"xxx"}'
+//获取定期单币balance>> curl http:192.168.3.103:9000/financial/getSingleDeadBalance -X POST -H "Content-Type:application/json,token:xxx" -d '{"symbol":"xxx"}'
+//获取定期单币订单列表>> curl http:192.168.3.103:9000/financial/getSingleDeadOrderList -X POST -H "Content-Type:application/json,token:xxx" -d '{"symbol":"xxx"}'
+//获取订单详情>> curl http:192.168.3.103:9000/financial/getOrderDetails -X POST -H "Content-Type:application/json,token:xxx" -d '{"id":xxx}'
+//下单>> curl http:192.168.3.103:9000/financial/buyOrder -X POST -H "Content-Type:application/json,token:xxx" -d '{"symbol":"xxx",id:xxx,quantity:xxx,transactionPassword:xxx}'
+//提前取款>> curl http:192.168.3.103:9000/financial/withdrawal -X POST -H "Content-Type:application/json,token:xxx" -d '{id:xxx,quantity:xxx,transactionPassword:xxx}'
+//提前取款计算>> curl http:192.168.3.103:9000/financial/calculationWithdrawal -X POST -H "Content-Type:application/json,token:xxx" -d '{id:xxx,quantity:xxx}'

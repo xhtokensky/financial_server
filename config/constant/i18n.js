@@ -1,0 +1,35 @@
+"use strict";
+module.exports = {
+    SystemError: 'SystemError',
+    VerifyFailed: 'VerifyFailed',
+    AddFailed: 'AddFailed',
+    UpdateFailed: 'UpdateFailed',
+    DeleteFailed: 'DeleteFailed',
+    TokenFailed: 'TokenFailed',
+    UserDoesNotExist: 'UserDoesNotExist',
+    LogoutSuccessfully: 'LogoutSuccessfully',
+    LogoutFailed: 'LogoutFailed',
+    IllegalType: 'IllegalType',
+    IncorrectGraphicVerificationCode: 'IncorrectGraphicVerificationCode',
+    IllegalPhoneNumber: 'IllegalPhoneNumber',
+    PhoneAlreadyRegistered: 'PhoneAlreadyRegistered',
+    WaitVerificationCode: 'WaitVerificationCode',
+    FrequentOperation: "FrequentOperation",
+    IlegalParameters: 'IlegalParameters',
+    NcorrectAccountOrPassword: 'NcorrectAccountOrPassword',
+    PhoneAuthentication: 'PhoneAuthentication',
+    VerificationCodeInvalid: 'VerificationCodeInvalid',
+    IncorrectVerificationCode: 'IncorrectVerificationCode',
+    PleaseSetTransactionPassword:'PleaseSetTransactionPassword',
+    IncorrectPassword:'IncorrectPassword',
+    InsufficientBalance:'InsufficientBalance',
+    UpEightDecimal:'UpEightDecimal',
+    IllegalAddress:'IllegalAddress',
+    PasswordChangeFailed:'PasswordChangeFailed',
+    Verify:'Verify',
+    NotWithinTheLimitChangeAmount:'NotWithinTheLimitChangeAmount',
+    Borrow:'Borrow',
+    HasMaturity:'HasMaturity'
+
+};
+
